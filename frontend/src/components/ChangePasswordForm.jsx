@@ -1,4 +1,4 @@
-import ChangeBG from "../../public/assets/cp.jpg";
+import ChangeBG from "../assets/cp.jpg";
 import { useCookies } from "react-cookie";
 import { useState } from "react";
 import { useSnackbar } from "notistack";

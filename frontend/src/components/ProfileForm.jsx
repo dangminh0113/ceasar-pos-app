@@ -12,7 +12,7 @@ import {
 } from "@material-tailwind/react";
 import { GrUpdate } from "react-icons/gr";
 import { PiNumpad } from "react-icons/pi";
-import ProfileBG from "../../public/assets/profile-bg.jpg";
+import ProfileBG from "../assets/profile-bg.jpg";
 import { useSnackbar } from "notistack";
 import { useCookies } from "react-cookie";
 import { jwtDecode } from "jwt-decode";
