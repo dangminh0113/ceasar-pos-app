@@ -42,7 +42,7 @@ const Navbar = ({ staff, heading }) => {
               className="cursor-pointer"
               src={
                 staff.avatar
-                  ? "https://caesarpos-api.vercel.app/uploads/avatars/" +
+                  ? "https://ceasar-pos-app-api.vercel.app/uploads/avatars/" +
                     staff.avatar
                   : ""
               }

@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { setCredentials } from "./authSlice";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://caesarpos-api.vercel.app",
+  baseUrl: "https://ceasar-pos-app-api.vercel.app",
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token;
     if (token) {

@@ -109,7 +109,7 @@ const ProfileForm = ({ userInfo }) => {
             <Avatar
               src={
                 userInfo.avatar
-                  ? "https://caesarpos-api.vercel.app/uploads/avatars/" +
+                  ? "https://ceasar-pos-app-api.vercel.app/uploads/avatars/" +
                     userInfo.avatar
                   : ""
               }
