@@ -6,14 +6,14 @@
             "use": "@vercel/node"
         },
         {
-            "src": "public/**",
+            "src": "tmp/**",
             "use": "@vercel/static"
         }
     ],
     "routes": [
         {
             "src": "^/uploads/avatars/(.*)",
-            "dest": "/public/uploads/avatars/$1"
+            "dest": "/tmp/uploads/avatars/$1"
         },
         {
             "src": "/(.*)",
