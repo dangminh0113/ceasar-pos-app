@@ -13,7 +13,7 @@
     "routes": [
         {
             "src": "^/uploads/avatars/(.*)",
-            "dest": "/tmp/uploads/avatars/$1"
+            "dest": "/tmp/$1"
         },
         {
             "src": "/(.*)",
